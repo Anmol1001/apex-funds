@@ -28,14 +28,19 @@ const ClientLogos = () => {
 ]
     return(
         <>
-           <div className="container flex flex-col flex-wrap justify-center items-center">
-                <h1 className="text-[70px]">Our Clients</h1>
-                <div className="flex gap-24">
+           <div className="xsm:flex xsm:flex-col xsm:flex-wrap xsm:items-center xsm:justify-center md:mt-8">
+                <h1 className="xsm:text-3xl xsm:font-bold xsm:text-eastern-blue-700 xsm:mb-8 sm:text-4xl md:text-6xl">Our Clients</h1>
+                <div className="">
+                    <div className="p-4 flex xsm:gap-12 md:gap-20 w-full">
                   {
+                    
                     imageContent.map(content=>(
-                        <Image src={content.src} alt={content.alt} height={content.height} width={content.width}/>
+                        <a href="#" key={content.alt}>
+                        <Image src={content.src} alt={content.alt} height={content.height} width={content.width} className="w-full"/>
+                        </a>
                     ))
                   }
+                  </div>
                 </div>
             </div> 
         </>

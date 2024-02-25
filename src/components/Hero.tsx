@@ -4,11 +4,13 @@ import logo from "../../public/Apex Funds limited logo_page-0002.jpg"
 const HeroPage = () => {
     return (
         <>
-            <div className="sm:flex h-[80vh] w-full bg-[#fafafa] justify-evenly p-8">  
-            <div className="p-16">  
-            <p className="text-4xl font-semibold"><span className="text-eastern-blue-500">"</span>Commodities tend to zig<span className="block text-eastern-blue-500"> when the equity markets zag</span></p>
+            <div className="flex sm:flex-col sm:items-center md:flex-row flex-wrap w-full bg-[#fafafa] justify-evenly p-8">  
+            <div className="sm:flex md:justify-center md:items-center md:w-1/2">  
+            <p className="xsm:text-2xl xsm:mb-8 sm:text-4xl sm:font-semibold"><span className="text-eastern-blue-500">{`"Commodities tend to zig`}</span><span className="block"> when the equity markets zag</span></p>
             </div>
-            <Image src={logo} height={500} width={400} alt="logo pic"/>
+            <div className="sm:w-96">
+            <Image src={logo} alt="logo pic" className="w-full"/>
+            </div>
             </div>
         </>
     )
