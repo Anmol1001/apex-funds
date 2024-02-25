@@ -1,33 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+:root{
+  --white:#fafafa;
+  --playfair:'Playfair Display', serif;
+  --quat:'Quattrocento Sans', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body{
+  background-color: var(--white);
+  font-family: var(--quat);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+p {
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.para{
+  display: block;
 }
+
+.bgImage {
+  background: url(../../public/team-members/1685724293391.jpg);
+}
+
+/* Contact form styling  */
+
+.row100{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.contact-form .row100 .inputBox input:focus + .text,
+.contact-form .row100 .inputBox input:valid + .text{
+  top: -35px;
+  left: -10px;
+}
+
+.contact-form .row100 .inputBox input:focus ~ .line,
+.contact-form .row100 .inputBox input:valid ~ .line{
+    height: 100%;
+
+}
+
+.contact-form .row100 .inputBox textarea:focus + .text,
+.contact-form .row100 .inputBox textarea:valid + .text{
+  top: -35px;
+  left: -10px;
+}
+
+.contact-form .row100 .inputBox textarea:focus ~ .line,
+.contact-form .row100 .inputBox textarea:valid ~ .line{
+    height: 100%;
+
+}
+
