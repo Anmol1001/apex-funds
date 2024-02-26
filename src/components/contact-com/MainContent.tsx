@@ -4,10 +4,10 @@ import RightContent from "./RightSideContent";
 const MainContent = () => {
     return (
         <>
-        <div className="flex flex-col flex-wrap w-3/4 h-full">
+        <div className="xsm:flex flex-col flex-wrap md:w-3/4 h-full xsm:w-full xsm:items-center md:items-start">
                    <h1 className="font-bold text-2xl text-eastern-blue-700 ">Contact</h1> 
                    <hr className="bg-eastern-blue-500 w-4/6 mb-3"/>
-                   <p className='font-light w-4/6 mb-3'>Talk with an advisor to create a customized inbound marketing program that blends proven strategy with tactical instruction and guarentess results.</p>
+                   <p className='font-light md:w-4/6 mb-3 xsm:w-full xsm:text-center md:text-left'>Talk with an advisor to create a customized inbound marketing program that blends proven strategy with tactical instruction and guarentess results.</p>
                    <p className='mb-3'><span className='font-semibold text-eastern-blue-700'>Email: </span> info@example.com.np</p>
                    <p className='mb-3'><span className='font-semibold text-eastern-blue-700'>Phone: </span> 01-4444444</p>
                    <p className='mb-3'><span className='font-semibold text-eastern-blue-700'>Fax: </span> 01-4333333</p>
@@ -17,7 +17,7 @@ const MainContent = () => {
                     <li className='mb-2'>Throughness and expertise of a Certified Exchange Specialist</li>
                     <li>Plan of action summarized in an email follow up</li>
                    </ul>
-                   <ContactForm />
+                   <ContactForm/>
                 </div>
                 <RightContent />
         </>

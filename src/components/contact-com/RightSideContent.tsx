@@ -4,12 +4,12 @@ import contactImage from '../../../public/contact/images.jpg'
 
 const RightContent = () => {
     return(
-        <div className="flex flex-col flex-wrap w-1/4">
+        <div className="flex flex-col flex-wrap md:w-4/5 xsm:w-full lg:w-1/4">
                     <div className="bg-slate-100 font-semibold text-xl text-eastern-blue-700 mb-5 p-8">
                         Call us at 9842588888
                     </div>
                     <div className="w-full h-48 mb-5">
-                        <Image src={contactImage} alt='contact picture' className='w-full h-full'/>
+                        <Image src={contactImage} alt='contact picture' className='w-full h-full md:object-cover'/>
                     </div>
                     <div className="bg-slate-100 text-eastern-blue-700 text-lg p-8 mb-5">
                         <ul className='flex flex-col flex-wrap px-4'>
@@ -22,7 +22,7 @@ const RightContent = () => {
                         </ul>
                     </div>
                     <div className="w-full h-48">
-                        <Image src={contactImage} alt='contact picture' className='w-full h-full'/>
+                        <Image src={contactImage} alt='contact picture' className='w-full h-full md:object-cover'/>
                     </div>
                 </div>
     )
