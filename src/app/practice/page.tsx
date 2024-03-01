@@ -6,7 +6,7 @@ import FooterPage from "@/components/Footer";
 const PracticePage = () => {
     return(
         <>
-            <FooterPage />
+            <TeamMemberPage />
         </>
     )
 }

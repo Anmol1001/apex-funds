@@ -44,7 +44,6 @@ p {
 .contact-form .row100 .inputBox input:focus ~ .line,
 .contact-form .row100 .inputBox input:valid ~ .line{
     height: 100%;
-
 }
 
 .contact-form .row100 .inputBox textarea:focus + .text,
@@ -59,3 +58,73 @@ p {
 
 }
 
+/* cards design of team member */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+
+.card-bg{
+  grid-column: 1/2;
+  grid-row: 1/4;
+  margin-bottom: 2rem;
+}
+
+.card-image{
+  grid-column: 1/2;
+  grid-row: 2/5;
+  margin-bottom: 1rem;
+}
+
+.card-headings{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.opaque {
+  --para-animation-duration: 2s;
+  --second-span-animation-duration: 2s;
+
+  animation-name: opaque;
+  animation-duration: var(--para-animation-duration);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+.animation1{
+  animation-name: slide-up;
+  animation-duration: var(--second-span-animation-duration);
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+  /* animation-delay: var(); */
+  /* animation-iteration-count: 1; */
+}
+
+
+ @keyframes slide-up{
+  0%{
+    transform: translateY(120%);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
+
+ @keyframes opaque {
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1;
+  }
+} 

@@ -28,8 +28,8 @@ const ClientLogos = () => {
 ]
     return(
         <>
-           <div className="xsm:flex xsm:flex-col xsm:flex-wrap xsm:items-center xsm:justify-center md:mt-8">
-                <h1 className="xsm:text-3xl xsm:font-bold xsm:text-eastern-blue-700 xsm:mb-8 sm:text-4xl md:text-6xl">Our Clients</h1>
+           <div className="xsm:flex xsm:flex-col xsm:flex-wrap xsm:items-center xsm:justify-center xsm:mt-14 md:mt-20 md:mb-40">
+                <h1 className="xsm:text-4xl xsm:font-bold xsm:text-eastern-blue-700 xsm:mb-8 sm:text-4xl md:text-6xl">Our Clients</h1>
                 <div className="">
                     <div className="p-4 flex xsm:gap-12 md:gap-20 w-full">
                   {
@@ -42,6 +42,7 @@ const ClientLogos = () => {
                   }
                   </div>
                 </div>
+                
             </div> 
         </>
     )

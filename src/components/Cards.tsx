@@ -11,20 +11,22 @@ interface CardItem  {
 const TeamCards = (props:CardItem) => {
     return (
         <>
-            <div className="container max-w-60 h-80 border-2 border-gray-300">
-                <div className="">
-                <div className="h-32 bg-eastern-blue-600">
+        
+            <div className="w-56 border-2 border-gray-300 cards xsm:mb-12 md:mb-0">
+            
+                <div className="h-32 bg-gray-800 card-bg">
                 </div>
-                <div className="h-24 w-32">
-                    <Image src={props.source} alt={props.name} height={200} width={200} className="max-w-full max-h-full rounded-[50%]"/>
+                <div className="h-32 w-32 mx-auto card-image">
+                    <Image src={props.source} alt={props.name} className="max-w-full max-h-full rounded-[50%] object-cover"/>
                 </div>
-                </div>
+                <div className="card-headings">
                 <h1 className="font-bold text-xl text-center">
                     {props.name}
                 </h1>
                 <h3 className="font-semibold text-center text-eastern-blue-500">
                     {props.designation}
                 </h3>
+                </div>
             </div>
             
             

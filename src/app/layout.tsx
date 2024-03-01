@@ -20,9 +20,11 @@ export default function RootLayout({
     <html lang="en">
       
       <body>
+        
       <Navbar/>
       <div>{children}</div>   
-      <FooterPage/>     
+      <FooterPage/> 
+        
       </body>
     </html>
   );

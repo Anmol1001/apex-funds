@@ -39,7 +39,7 @@ const Navbar = () => {
     }
     return(
         <nav className="h-24 w-full shadow-md">
-           <div className='flex justify-between items-center h-full w-full px-4'>
+           <div className='flex justify-between items-center max-w-7xl mx-auto h-full w-full px-4'>
             <Link href="/">
             <div>
                 <Image
@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
         </div> 
         <div className={menubar 
-            ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-[#a5abb0] p-10 ease-in duration-500" :"fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
+            ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-eastern-blue-700 p-10 ease-in duration-500 z-10" :"fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                 <div onClick={handleNav} className="flex w-full items-center justify-end">
                     <div onClick={handleNav} className="cursor-pointer">
                     <AiOutlineClose size={25}/>

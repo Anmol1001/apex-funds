@@ -5,7 +5,7 @@ const FooterPage = () => {
     return(
         <>
             <footer className="w-full bg-slate-200 flex xsm:flex-col md:p-0 md:pt-4 space-y-4 leading-8 text-eastern-blue-700 mt-8">
-                <div className="flex flex-wrap flex-row justify-evenly">
+                <div className="flex flex-wrap flex-row justify-around max-w-7xl">
                 <div className="space-y-4 xsm:p-4 md:p-0">
                 <div className="h-20 w-20">
                     <Image src={logo} alt="apex logo" width={200} height={200} className="max-w-full"/>
