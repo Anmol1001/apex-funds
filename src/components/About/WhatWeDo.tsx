@@ -4,7 +4,7 @@ import nimesh2 from "../../../public/WhatsApp Image 2024-02-11 at 14.52.30_35566
 const WhatWeDo = ()=> {
     return(
         <>
-            <section id="whatwedo" className="p-8">
+            <section id="whatwedo" className="xsm:mt-8 xsm:px-8 md:max-w-7xl md:mx-auto lg:px-0">
                 <h1 className="font-light text-xl mb-12">
                     WHAT WE DO
                 </h1>

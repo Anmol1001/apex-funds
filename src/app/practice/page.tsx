@@ -1,12 +1,17 @@
-import TeamMemberPage from "../../components/TeamMembers";
-import stupa from "../../../public/WhatsApp Image 2024-02-11 at 14.55.31_174152fe.jpg"
-import TeamCards from "@/components/Cards";
-import FooterPage from "@/components/Footer";
+'use client'
+
+import Box from "@/components/BoxPractice";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 const PracticePage = () => {
+    
     return(
         <>
-            <TeamMemberPage />
+             <Box num={1}/>
+             <Box num={2}/>
+             <Box num={3}/>
         </>
     )
 }

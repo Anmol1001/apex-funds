@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/Apex Funds limited logo-01.png"
+import logo from "../../../public/Apex Funds limited logo_page-0002.jpg"
 
 const FooterPage = () => {
     return(

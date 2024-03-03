@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import logo from "../../public/Apex Funds limited logo_page-0002.jpg"
+import logo from "../../public/Apex Funds limited logo-01.png"
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
@@ -38,7 +38,7 @@ const Navbar = () => {
          setMenubar(!menubar);
     }
     return(
-        <nav className="h-24 w-full shadow-md">
+        <nav className="h-24 w-full">
            <div className='flex justify-between items-center max-w-7xl mx-auto h-full w-full px-4'>
             <Link href="/">
             <div>

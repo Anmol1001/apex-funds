@@ -9,6 +9,8 @@
   --white:#fafafa;
   --playfair:'Playfair Display', serif;
   --quat:'Quattrocento Sans', sans-serif;
+  --para-animation-duration: 1s;
+  --second-span-animation-duration: 1s;
 }
 
 body{
@@ -83,9 +85,9 @@ p {
   grid-row: 5/6;
 }
 
+/* Hero Animation - Home page */
+
 .opaque {
-  --para-animation-duration: 2s;
-  --second-span-animation-duration: 2s;
 
   animation-name: opaque;
   animation-duration: var(--para-animation-duration);
@@ -96,16 +98,37 @@ p {
 .animation1{
   animation-name: slide-up;
   animation-duration: var(--second-span-animation-duration);
+  animation-delay: var(--para-animation-duration);
   animation-timing-function: ease-in;
   animation-fill-mode: both;
   /* animation-delay: var(); */
   /* animation-iteration-count: 1; */
 }
 
+.img-animation{
+    animation-name: slide-up-for-image;
+    animation-duration: var(--para-animation-duration);
+    animation-timing-function: ease-in;
+    animation-delay: calc(var(--para-animation-duration) + var(--second-span-animation-duration));
+    animation-fill-mode: both;
+}
+
 
  @keyframes slide-up{
   0%{
     transform: translateY(120%);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up-for-image{
+  0%{
+    transform: translateY(30%);
     opacity: 0;
   }
 
