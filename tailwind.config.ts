@@ -16,8 +16,11 @@ const config: Config = {
       '2xl': '1536px',
     },
     extend: {
-      gridAutoColumns: {
-        '2fr': 'minmax(0, 2fr)',
+      spacing: {
+        '108': '28rem',
+        '128': '32rem',
+        '140': '36rem',
+        '152': '40rem'
       },
       colors: {
         'eastern-blue': {

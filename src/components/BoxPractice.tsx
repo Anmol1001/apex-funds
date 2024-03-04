@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 const Box = ({num}) => {
 
+
     const boxVariant = {
         visible: { opacity: 1, scale: 2, x:0 ,transition:{duration: 0.5 , delay: 1}},
         hidden: { opacity: 0,  x:200 , scale: 0 },
