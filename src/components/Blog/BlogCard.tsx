@@ -6,7 +6,7 @@ import camera from "../../../public/digital_camera_photo-1080x675.jpg";
 const BlogCard = () => {
     return (
         <>
-            <section id="blogs" className="bg-gray-100">
+            <section id="blogs" className="bg-gray-100 mt-20">
                 <div className="flex xsm:flex-col xsm:space-y-4 xsm:items-center md:flex-row md:max-w-7xl py-4 md:justify-between md:mx-auto">
                     <div className="card w-[20.5rem] bg-white rounded-lg overflow-hidden shadow-sm">
                         <Image src={pexels} alt="blog pic 1" className="w-full object-cover"/>
