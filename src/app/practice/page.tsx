@@ -5,12 +5,12 @@ import TeamMemberPage from "@/components/TeamMembers";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import TeamMember2 from "../../components/Team-member-sections/TeamMember2"
+import TeamMember3 from "../../components/Team-member-sections/TeamMember3"
 const PracticePage = () => {
     
     return(
         <>
-            <TeamMember2 />
+            <TeamMember3 />
         </>
     )
 }

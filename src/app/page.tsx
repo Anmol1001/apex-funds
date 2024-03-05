@@ -3,7 +3,7 @@ import HeroPage from "../components/Hero";
 import ClientLogos from "@/components/ClientLogo";
 import FooterPage from "@/components/Footer";
 import TeamMemberPage from "@/components/TeamMembers";
-import TeamMember2 from "@/components/Team-member-sections/TeamMember2";
+import TeamMember3 from "@/components/Team-member-sections/TeamMember3";
 import Line from "../components/HorizontalLine";
 
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Line />
       <ClientLogos />
       <Line />
-      <TeamMember2 />
+      <TeamMember3 />
     </>
   );
 }
