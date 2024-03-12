@@ -1,5 +1,6 @@
 import Image from "next/image";
 import nimesh2 from "../../../public/WhatsApp Image 2024-02-11 at 14.52.30_35566376.jpg";
+import AboutUs from "../../../public/about-us.jpg"
 
 const WhatWeDo = ()=> {
     return(
@@ -33,7 +34,7 @@ const WhatWeDo = ()=> {
                         </div>
                     </div>
                     <div className="h-full  xsm:w-5/6 xsm:mx-auto sm:w-full md:w-1/2 lg:w-2/5">
-                        <Image src={nimesh2} alt="what we do image" className="w-full h-full sm:object-cover"/>
+                        <Image src={AboutUs} alt="what we do image" className="w-full h-full sm:object-cover"/>
                     </div>
                 </div>
             </section>

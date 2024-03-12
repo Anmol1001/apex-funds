@@ -1,13 +1,12 @@
+import ContactPage from '@/components/contact-com/ContactAnother';
 import MainContent from '../../components/contact-com/MainContent';
 
-const ContactPage = () => {
+const Contact = () => {
     return (
         <>
-            <section id="contact-us" className="xsm:flex xsm:flex-col md:flex-row flex-wrap max-w-7xl mx-auto mt-4 p-4">
-                <MainContent/>
-            </section>
+            <ContactPage />
         </>
     )
 }
 
-export default ContactPage;
+export default Contact;

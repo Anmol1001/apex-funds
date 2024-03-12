@@ -1,0 +1,14 @@
+<p className="text-lg">Gyaneshwor Tower</p>
+                <p className="text-lg">Gyaneshwor, Nepal</p>
+                
+                
+                <div>
+                    <span className="text-lg font-semibold">Phone</span>
+                    <span className="text-lg">: +9779842588888</span>
+                </div>
+                <div>
+                    <span className="text-lg font-semibold">Email</span>
+                    <span className="text-lg">: info@example.com</span>: 
+                </div>
+                
+                </div>

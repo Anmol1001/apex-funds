@@ -2,6 +2,7 @@
 import Image from "next/image";
 import stupa from "../../public/WhatsApp Image 2024-02-11 at 14.55.31_174152fe.jpg"
 import nimesh from "../../public/WhatsApp Image 2024-02-11 at 14.53.03_69ac609a.jpg"
+import overview from "../../public/team-members/overview.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -32,8 +33,8 @@ const OverviewPage = () => {
         initial="hidden"
         animate={control}
         className="xsm:flex xsm:flex-col-reverse xsm:flex-wrap md:flex-row md:max-w-7xl md:mx-auto p-8 xsm:items-center md:justify-between">
-           <div className="xsm:w-4/6 xsm:mt-4 md:w-2/5 lg:w-1/4">
-                <Image src={nimesh} alt="nimesh photo" className="w-full"/>
+           <div className="xsm:w-4/6 xsm:mt-4 md:w-2/5 lg:w-2/5 lg:h-96">
+                <Image src={overview} alt="nimesh photo" className="w-full h-full object-cover"/>
             </div>
          <div className="xsm:w-5/6 xsm:space-y-4 md:w-1/2 md:pl-4">
           <h1 className="xsm:text-center text-eastern-blue-700 font-bold xsm:text-2xl underline">Overview</h1> 
