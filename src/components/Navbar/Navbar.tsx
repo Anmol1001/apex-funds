@@ -16,7 +16,7 @@ const NavBarPractice = () => {
 
     return (
         <>
-    <nav className="bg-white sm:py-0 sm:px-12">
+    <nav className="bg-white sm:py-0 sm:px-12 max-7xl mx-auto">
             <div className="nav-container flex items-center font-medium justify-between md:max-w-7xl">
                 <div className="nav-logo md:w-auto p-2 w-full z-50 flex justify-between">
                     <Link href='/'>

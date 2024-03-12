@@ -10,7 +10,7 @@ const NavLinks = () => {
         ]},
         {name:'Blogs',link:'/blogs'},
         {name:'Newsletter',link:'#'},
-        {name:"Contact Us",link:'#'}
+        {name:"Contact Us",link:'/contact'}
     ];
 
     const [heading, setHeading] = useState("");
@@ -59,7 +59,7 @@ const NavLinks = () => {
                                     <div key={slink.name}>
                                         <div className=''>
                                             <Link href={slink.link}>
-                                            <h1 className='py-4 pl-7 font-semibold md:pr-0 pr-5'>{slink.name}
+                                            <h1 className='py-8 pl-7 font-semibold md:pr-0 pr-5'>{slink.name}
                                             </h1>
                                             </Link>
                                             </div>    
