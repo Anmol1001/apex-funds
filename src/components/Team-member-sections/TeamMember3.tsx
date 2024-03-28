@@ -54,7 +54,7 @@ const TeamMember3 = () => {
                         <Image src={backgdImage} alt="background-image" className="card-bg-img w-full h-56 object-cover"/>
                     </div>
                     <div className="pic">
-                        <Image src={team7} alt="team-member-pic" className="h-28 w-28 rounded-full border border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
+                        <Image src={team7} alt="team-member-pic" className="h-28 w-28 rounded-full border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
                     </div>
                     <div className="info ">
                         <h3 className='text-eastern-blue-700 text-xl py-2 px-0 '>{`someone's name`}</h3>
@@ -75,7 +75,7 @@ const TeamMember3 = () => {
                         <Image src={backgdImage} alt="background-image" className="card-bg-img w-full h-56 object-cover"/>
                     </div>
                     <div className="pic">
-                        <Image src={team2} alt="team-member-pic" className="h-28 w-28 rounded-full border border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
+                        <Image src={team2} alt="team-member-pic" className="h-28 w-28 rounded-full border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
                     </div>
                     <div className="info ">
                         <h3 className='text-eastern-blue-700 text-xl py-2 px-0 '>{`someone's name`}</h3>
@@ -96,7 +96,7 @@ const TeamMember3 = () => {
                         <Image src={backgdImage} alt="background-image" className="card-bg-img w-full h-56 object-cover"/>
                     </div>
                     <div className="pic">
-                        <Image src={team3} alt="team-member-pic" className="h-28 w-28 rounded-full border border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
+                        <Image src={team3} alt="team-member-pic" className="h-28 w-28 rounded-full border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
                     </div>
                     <div className="info ">
                         <h3 className='text-eastern-blue-700 text-xl py-2 px-0 '>{`someone's name`}</h3>
@@ -117,7 +117,7 @@ const TeamMember3 = () => {
                         <Image src={backgdImage} alt="background-image" className="card-bg-img w-full h-56 object-cover"/>
                     </div>
                     <div className="pic">
-                        <Image src={team1} alt="team-member-pic" className="h-28 w-28 rounded-full border border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
+                        <Image src={team1} alt="team-member-pic" className="h-28 w-28 rounded-full border-8 border-eastern-blue-700 mx-auto relative mt-[-85px]"/>
                     </div>
                     <div className="info ">
                         <h3 className='text-eastern-blue-700 text-xl py-2 px-0 '>{`someone's name`}</h3>

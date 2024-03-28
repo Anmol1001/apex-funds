@@ -14,7 +14,7 @@ const NavLinks = () => {
         {name:'Resources', link:"#", submenu:true, sublink:[
             {name: "Blogs", link:"/blogs"},
             {name: "Newsletter", link:"#"}
-        ]},
+    ]},
         {name:'Investment', link:'/investment'},
         {name:'Funds', link:'/funds'}
     ];
@@ -34,7 +34,7 @@ const NavLinks = () => {
                         {link.name} {
                          link.submenu &&   
                         <span className='md:hidden'>
-                         <IoIosArrowUp className={`inline ${heading === link.name ? 'transition-all ease-in duration-300 transform' : 'transition duration-500 rotate-180'}`}/>
+                         <IoIosArrowUp className={`inline ${heading !== link.name ? 'transition-all ease-in duration-300 transform' : 'transition duration-500 rotate-180'}`}/>
                         </span>
 }
                         </h1>
@@ -57,7 +57,7 @@ const NavLinks = () => {
                         }
                     </div>
                     {/* Mobile menus */}
-                    <div className={`${heading === 'About' ? 'sm:invisible sm:absolute sm:transform sm:opacity-40 sm:translate-y-[-50%]' :'sm:transform sm:translate-y-0 sm:opacity-1 sm:visible'} md:hidden transition duration-700`}>
+                    <div className={`${heading === 'About' || 'Resources' ? 'xsm:invisible xsm:absolute xsm:transform xsm:opacity-30 xsm:translate-y-[-50%]' :'xsm:transform xsm:translate-y-0 xsm:opacity-1 xsm:visible'} md:hidden transition duration-700`}>
                         {
                             link.submenu && 
                             (

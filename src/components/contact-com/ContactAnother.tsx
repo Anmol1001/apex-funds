@@ -15,7 +15,7 @@ const ContactPage = () => {
                     </div>
                     <div className="ml-4 space-y-4">
                         <div className="flex max-w-30 gap-2">
-                            <div className="border border-2 w-11 h-11 rounded-full p-2 relative">
+                            <div className="border-2 w-11 h-11 rounded-full p-2 relative">
                             <span className="absolute top-[30%] left-[25%] text-xl">
                             <FaPhoneAlt /></span>
                             </div>
@@ -25,7 +25,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                         <div className="flex max-w-30 gap-2">
-                            <div className="border border-2 w-11 h-11 rounded-full p-2 relative">
+                            <div className="border-2 w-11 h-11 rounded-full p-2 relative">
                             <span className="absolute top-[30%] left-[25%] text-xl">
                             <MdEmail /></span>
                             </div>
@@ -35,7 +35,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                         <div className="flex max-w-30 gap-2">
-                            <div className="border border-2 w-11 h-11 rounded-full p-2 relative">
+                            <div className="border-2 w-11 h-11 rounded-full p-2 relative">
                             <span className="absolute top-[30%] left-[25%] text-xl">
                             <FaLocationDot /></span>
                             </div>

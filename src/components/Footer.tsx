@@ -9,9 +9,9 @@ const FooterPage = () => {
     return(
         <>
             <footer className="w-full bg-gradient-to-tr from-eastern-blue-700 to-slate-700 md:p-0 md:pt-4 leading-8 text-slate-100 mt-8">
-            <ContactForm />      
-
-                <div className="flex flex-row gap-60 justify-between mx-auto max-w-7xl pb-8">
+               
+                  
+                <div className="flex xsm:flex-col xsm:items-start sm:gap-20 md:flex-row md:gap-60 md:justify-around pb-8">
                 <div className="space-y-4 xsm:p-4 md:p-0">
                 <div className="h-32 w-32">
                     <Image src={logo} alt="apex logo" className="w-full h-full object-cover"/>
@@ -42,8 +42,8 @@ const FooterPage = () => {
                     </ul>
                     
                 </div>
+                
                 </div>
-               
                
             </footer>
         </>
