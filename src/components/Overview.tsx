@@ -12,7 +12,7 @@ const OverviewPage = () => {
 
     const overviewVariant = {
         visible:{opacity:1, translateX: 0, transition:{duration: 2}},
-        hidden: {opacity:0, translateX:-1000}
+        hidden: {opacity:0, translateX:-100}
     }
 
     const control = useAnimation();
@@ -32,7 +32,7 @@ const OverviewPage = () => {
         variants={overviewVariant}
         initial="hidden"
         animate={control}
-        className="xsm:flex xsm:flex-col-reverse xsm:flex-wrap md:flex-row md:max-w-7xl md:mx-auto p-8 xsm:items-center md:justify-between">
+        className="xsm:flex xsm:flex-col-reverse xsm:flex-wrap md:flex-row md:max-w-7xl md:mx-auto p-8 xsm:items-center md:justify-between overflow-hidden">
            <div className="xsm:w-4/6 xsm:mt-4 md:w-2/5 lg:w-2/5 lg:h-96">
                 <Image src={overview} alt="nimesh photo" className="w-full h-full object-cover"/>
             </div>

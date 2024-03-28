@@ -54,7 +54,7 @@ const ClientLogos = () => {
            initial="hidden"
            animate={control}
            className="xsm:flex xsm:flex-col xsm:flex-wrap xsm:items-center xsm:justify-center xsm:mt-14 md:mt-20 md:mb-40">
-                <h1 className="xsm:text-5xl xsm:font-bold xsm:text-eastern-blue-700 xsm:mb-8 sm:text-4xl md:text-6xl">Investment Portfolio</h1>
+                <h1 className="xsm:text-3xl xsm:text-center xsm:font-bold xsm:text-eastern-blue-700 xsm:mb-8 sm:text-4xl md:text-6xl">Investment Portfolio</h1>
                 <div className="">
                     <div className="p-4 flex xsm:gap-12 md:gap-20 w-full">
                   {

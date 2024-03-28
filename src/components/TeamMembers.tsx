@@ -46,8 +46,8 @@ const TeamMemberPage = () => {
         variants={teamVariant}
         initial="hidden"
         animate={control}
-        className="mt-20 mb-40">
-            <h1 className="xsm:text-5xl md:text-6xl font-bold text-eastern-blue-700 text-center">Our Teams</h1>
+        className="mt-20 mb-40 overflow-hidden">
+            <h1 className="xsm:text-5xl md:text-6xl font-bold text-eastern-blue-700 text-center ">Our Teams</h1>
             <div className="xsm:mt-8 xsm:flex xsm:flex-col xsm:items-center md:max-w-7xl md:mx-auto md:flex-row md:justify-between">
            {
             CardItems.map(card => ( <TeamCards key={card.name} source={card.source} name={card.name} designation={card.designation}/>

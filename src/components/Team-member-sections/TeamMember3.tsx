@@ -18,12 +18,12 @@ const TeamMember3 = () => {
 
     const TeamHeaderVariant = {
         visible:{opacity:1,translateY:0 ,transition:{duration: 1}},
-        hidden:{opacity:0, translateY:50}
+        hidden:{opacity:0, translateY:10}
     }
     
     const TeamVariant = {
         visible:{opacity:1, translateX: 0, transition:{duration: 2}},
-        hidden: {opacity:0, translateX:-1000}
+        hidden: {opacity:0, translateX:-10}
     }
 
     const control = useAnimation();
@@ -48,8 +48,8 @@ const TeamMember3 = () => {
            variants={TeamVariant}
            initial="hidden"
            animate={control}
-           className="flex justify-center flex-wrap max-w-7xl mx-auto">
-                <div className="team-card h-108 w-64 m-5 shadow-md rounded-lg overflow-hidden text-center">
+           className="flex justify-center flex-wrap max-w-7xl mx-auto overflow-hidden">
+                <div className="team-card h-108 w-64 m-5 shadow-md rounded-lg text-center">
                     <div className="bg-image">
                         <Image src={backgdImage} alt="background-image" className="card-bg-img w-full h-56 object-cover"/>
                     </div>
