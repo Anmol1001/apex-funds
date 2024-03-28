@@ -10,12 +10,13 @@ import ContactPage from "@/components/contact-com/ContactAnother";
 import ContactContent from "@/components/contact-com/ContactContent";
 import Navbar from "@/components/Navbar/Navbar";
 import NavBarPractice from "@/components/Navbar/PracticeNav/NavPractice";
+import Hero from "@/components/Investment/Hero";
 
 const PracticePage = () => {
     
     return(
         <>
-           <NavBarPractice />
+           <Hero />
         </>
     )
 }

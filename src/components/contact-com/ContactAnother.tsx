@@ -7,8 +7,8 @@ const ContactPage = () => {
     return (
         <>
         <section className="bg-slate-800 w-full min-h-[90vh]">
-            <div className="flex flex-wrap max-w-7xl mx-auto">
-            <div className="flex flex-col gap-12 text-slate-200 pl-8 pt-20 mr-20 md:w-1/3">
+            <div className="flex flex-wrap justify-between max-w-7xl mx-auto">
+            <div className="flex flex-col gap-12 text-slate-200 pt-20">
                     <div className="space-y-2">
                         <h2 className="before:absolute  before:w-1/2 before:h-[1px] before:bg-eastern-blue-600 before:top-[120%] before:left-0 after:absolute after:w-1/2 after:h-1 after:bg-eastern-blue-600 after:top-[120%] after:left-0 after:rounded-3xl relative text-3xl inline-block mb-8">Get In Touch</h2>
                         <p className="font-lightweight text-sm leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quia consectetur alias delectus aliquid optio.</p>

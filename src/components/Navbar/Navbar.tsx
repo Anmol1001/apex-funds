@@ -16,8 +16,8 @@ const NavBarPractice = () => {
 
     return (
         <>
-    <nav className="bg-white sm:py-0 sm:px-12 max-7xl mx-auto">
-            <div className="nav-container flex items-center font-medium justify-between md:max-w-7xl">
+    <nav className="bg-white sm:py-0 sm:px-12">
+            <div className="nav-container flex items-center font-medium justify-between max-w-7xl mx-auto">
                 <div className="nav-logo md:w-auto p-2 w-full z-50 flex justify-between">
                     <Link href='/'>
                     <Image src={logo} alt="apex logo" className="md:cursor-pointer w-24 h-24"/>
@@ -32,7 +32,7 @@ const NavBarPractice = () => {
                 <ul className="nav-links md:flex hidden uppercase items-center gap-8">
                     
                     <NavLinks />
-                    <div className='md:block hidden'>
+                    <div className='hidden'>
                         <Button />
                     </div>
                     

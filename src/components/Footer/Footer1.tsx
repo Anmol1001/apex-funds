@@ -1,10 +1,13 @@
 import Image from "next/image";
 import logo from "../../../public/Apex Funds limited logo_page-0002.jpg"
+import ContactForm from "../contact-com/ContactForm";
 
 const FooterPage = () => {
     return(
         <>
             <footer className="w-full bg-slate-200 md:p-0 md:pt-4 leading-8 text-eastern-blue-700 mt-8">
+            <ContactForm />      
+
                 <div className="flex flex-wrap flex-row md:justify-between md:max-w-7xl md:mx-auto">
                 <div className="space-y-4 xsm:p-4 md:p-0">
                 <div className="h-20 w-20">
